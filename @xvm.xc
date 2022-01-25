@@ -19,11 +19,11 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "6.1.0",
+  "configVersion": "1.0.0",
 
   // Automatically reload config. Requires client restart.
   // Автоматически перезагружать конфиг. Требует перезапуска клиента.
-  "autoReloadConfig": false,
+  "autoReloadConfig": true,
 
   // Language used in mod:
   // "auto" - automatically detect language from game client,
@@ -50,11 +50,11 @@
   "definition": {
     // Config author.
     // Автор конфига.
-    "author": "XVM Team",
+    "author": "Ningaro",
 
     // Config description.
     // Описание конфига.
-    "description": "Default settings for XVM",
+    "description": "Ningaro Custom Config",
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
