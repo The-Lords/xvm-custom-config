@@ -194,6 +194,19 @@
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 3 },
       "textFormat": { "align": "center", "color": "0xF4EFE8", "size": 16 },
       "format": "{{l10n:fireMsg}}"
+    },
+    "armorInfo": {
+      "enabled": true,
+      "updateEvent": "ON_EVERY_SECOND",
+      "x": 170,
+      "y": 0,
+      "width": 100,
+      "height": 100,
+      "screenHAlign": "center",
+      "screenVAlign": "center",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
+      "textFormat": { "size": 15, "align": "center" },
+      "format": "Броня в точке прицеливания {{py:sight.armorActual}}"
     }
   }
 }
