@@ -15,7 +15,7 @@
     "showPostmortemDogTag": true,
     // false - disable battle hints.
     // false - отключить подсказки в бою.
-    "showBattleHint": true,
+    "showBattleHint": false,
     // false - disable highlighting of own vehicle icon and squad.
     // false - отключить подсветку иконки своего танка и взвода.
     "highlightVehicleIcon": true,
