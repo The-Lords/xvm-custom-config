@@ -197,16 +197,16 @@
     },
     "armorInfo": {
       "enabled": true,
-      "updateEvent": "ON_EVERY_SECOND",
-      "x": 170,
+      "updateEvent": "PY(ON_CALC_ARMOR), PY(ON_TARGET)",
+      "x": 0,
       "y": 0,
-      "width": 100,
-      "height": 100,
+      "width": 300,
+      "height": 300,
       "screenHAlign": "center",
       "screenVAlign": "center",
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
-      "textFormat": { "size": 15, "align": "center" },
-      "format": "Броня в точке прицеливания {{py:sight.armorActual}}"
+      "textFormat": { "size": 17, "bold": "true", "align": "center", "color": "{{py:sight.c_piercingChance}}" },
+      "format": "{{py:sight.piercingChance()}}"
     }
   }
 }
