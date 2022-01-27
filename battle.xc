@@ -31,7 +31,7 @@
     "sixthSenseIcon": "xvm://res/SixthSense.png",
     // Duration of the sixth sense indicator (msec).
     // Длительность отображения индикатора 6-го чувства (мсек).
-    "sixthSenseDuration": 8000,
+    "sixthSenseDuration": 10000,
     // GUI elements settings (experts only).
     // Настройки графических элементов (только для экспертов!).
     "elements": ${"elements.xc":"elements"},
